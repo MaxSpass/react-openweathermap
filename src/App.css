@@ -1,0 +1,86 @@
+:root {
+  --main: #3f51b5;
+}
+
+.header__top {
+  padding: 7px 10px;
+  background: var(--main);
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  border-bottom: 2px solid #f50057;
+}
+
+.location-search-input {
+  width: 444px;
+}
+
+.date__wrap {
+  margin: 20px 0;
+}
+
+.autocomplete-root {
+  position: relative;
+}
+
+.autocomplete-dropdown-container {
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  left: 0px;
+  right: 0px;
+  padding: 0 10px;
+  background: #fff;
+  box-shadow: 0 0 13px 0 rgba(0,0,0,.5);
+  box-sizing: border-box;
+}
+
+.suggestion-item {
+
+}
+
+.suggestion-item--active {
+  background: var(--main);
+  color: #fff;
+}
+
+.chart-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.wheather__container {
+  text-align: center;
+}
+
+.wheather__name {
+  margin: 0 0 7px 0;
+  font-size: 38px;
+  font-weight: 300;
+  line-height: 1;
+}
+
+.wheather__country {
+
+}
+
+.wheather__temp {
+  margin: 0 0 7px 0;
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 1;
+}
+.wheather__wheather-ico {}
+
+.wheather__info-item:not(:last-child) {
+  margin-right: 25px;
+}
+
+.wheather__info {
+  padding: 10px 0;
+  background: #eaeaea;
+  color: #000;
+}
+
+.wheather__pressure {}
+.wheather__humidity {}
+.wheather__wind-speed {}
+.wheather__clouds {}
